@@ -12,7 +12,7 @@ body {
   height: 100%;
   background-color: #333;
   font-family: consolas, monospace;
-  color: #fff;
+  color: #ffffffe3;
   font-size: 16px;
 }
 
@@ -74,19 +74,19 @@ a {
   display: inline-block;
 }
 .game__body:before {
-  background-color: yellow;
+  background-color: hsl(60, 65%, 45%);
   animation: fly_1 3s infinite;
 }
 .game__body:after {
-  background-color: blue;
+  background-color: hsl(240, 95%, 45%);
   animation: fly_2 7s infinite;
 }
 .game__items:before {
-  background-color: green;
+  background-color: hsl(120, 100%, 25%);
   animation: fly_3 5s infinite;
 }
 .game__items:after {
-  background-color: red;
+  background-color: hsl(0, 100%, 50%);
   animation: fly_4 11s infinite;
 }
 
@@ -247,7 +247,7 @@ a {
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-size: 40px;
+  font-size: 38px;
   visibility: hidden;
 }
 
@@ -266,7 +266,7 @@ a {
   font-size: 20px;
   color: #fff;
   text-align: center;
-  line-height: 23px;
+  line-height: 24px;
   position: relative;
   z-index: 2;
 }
@@ -275,7 +275,7 @@ a {
   position: absolute;
   bottom: 0;
   right: 0;
-  background-color: #000;
+  background-color: hsl(0, 0%, 0%);
   width: 250px;
   border-radius: 0 0 18px 0;
   padding: 40px 5px 35px 20px;
