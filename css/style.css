@@ -74,7 +74,7 @@ a {
   display: inline-block;
 }
 .game__body:before {
-  background-color: hsl(60, 65%, 45%);
+  background-color: hsl(60, 68%, 46%);
   animation: fly_1 3s infinite;
 }
 .game__body:after {
