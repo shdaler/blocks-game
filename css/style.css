@@ -223,6 +223,7 @@ a {
 
 .game__counter {
   position: absolute;
+
   bottom: 20px;
   left: 20px;
   width: 72px;
